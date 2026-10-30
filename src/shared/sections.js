@@ -104,13 +104,9 @@ function contactSection() {
   <section class="section section-contact" id="contatti" aria-labelledby="contatti-title">
     <div class="contact-bg" aria-hidden="true">
       <div class="contact-bg-stage">
-        ${[1, 2, 3]
-          .map(
-            (n) => `<img src="${asset(`photos/contatti/reflex-${n}-1600.webp`)}"
-              srcset="${asset(`photos/contatti/reflex-${n}-900.webp`)} 900w, ${asset(`photos/contatti/reflex-${n}-1600.webp`)} 1600w"
-              sizes="100vw" alt="" loading="lazy" decoding="async" />`,
-          )
-          .join('')}
+        <img src="${asset('photos/contatti/reflex-1800.webp')}"
+          srcset="${asset('photos/contatti/reflex-1000.webp')} 1000w, ${asset('photos/contatti/reflex-1800.webp')} 1800w"
+          sizes="(min-width: 821px) 68vw, 100vw" alt="" loading="lazy" decoding="async" />
       </div>
     </div>
     <div class="contact" data-reveal-scroll>
@@ -224,9 +220,7 @@ function contactSection() {
       </form>
     </div>
     <p class="contact-credit">Sfondo: foto di
-      <a href="https://unsplash.com/@sylvester_s" target="_blank" rel="noopener">Sylvester Sabo</a>,
-      <a href="https://unsplash.com/@smartphotocourses" target="_blank" rel="noopener">Smart</a> e
-      <a href="https://unsplash.com/@alexkall" target="_blank" rel="noopener">Alex Kalligas</a> su Unsplash</p>
+      <a href="https://unsplash.com/@ahmdrzarzai" target="_blank" rel="noopener">Ahmadreza Rezaie</a> su Unsplash</p>
   </section>
   <footer class="site-footer">
     <span>© 2026 ${photographer.name}<button class="egg" type="button" aria-label="Una sorpresa">·</button>${photographer.place}</span>

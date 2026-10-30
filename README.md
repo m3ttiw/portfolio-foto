@@ -55,4 +55,4 @@ GitHub Pages con GitHub Actions (`.github/workflows/deploy.yml`) a ogni push su 
 
 ## Crediti
 
-Sfondo della sezione contatti: foto di [Sylvester Sabo](https://unsplash.com/@sylvester_s), [Smart](https://unsplash.com/@smartphotocourses) e [Alex Kalligas](https://unsplash.com/@alexkall) su Unsplash ([licenza Unsplash](https://unsplash.com/license)), in `public/photos/contatti/`.
+Sfondo della sezione contatti: foto di [Ahmadreza Rezaie](https://unsplash.com/@ahmdrzarzai) su Unsplash ([licenza Unsplash](https://unsplash.com/license)), in `public/photos/contatti/`.

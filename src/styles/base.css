@@ -601,7 +601,7 @@ a {
   text-transform: uppercase;
 }
 
-/* Contatti: fascia scura a tutta larghezza con tre reflex in dissolvenza.
+/* Contatti: fascia scura a tutta larghezza con una reflex sullo sfondo.
    È scura in tutti i temi, quindi ridefinisce i colori al suo interno. */
 .section-contact {
   position: relative;
@@ -638,12 +638,8 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 30% center;
-  opacity: 0;
-  filter: brightness(1.7) contrast(1.08) saturate(0.85);
-}
-.contact-bg img:first-child {
-  opacity: 0.9;
+  object-position: center;
+  opacity: 0.75;
 }
 /* Su schermo largo la foto sta a sinistra, dietro al titolo, e sfuma verso il form. */
 @media (min-width: 821px) {
@@ -673,35 +669,6 @@ a {
 @media (max-width: 820px) {
   .contact-bg-stage::after {
     background: rgba(12, 10, 16, 0.72);
-  }
-}
-@media (prefers-reduced-motion: no-preference) {
-  .contact-bg img {
-    animation: contact-fade 24s infinite;
-  }
-  .contact-bg img:first-child {
-    opacity: 0;
-  }
-  .contact-bg img:nth-child(2) {
-    animation-delay: 8s;
-  }
-  .contact-bg img:nth-child(3) {
-    animation-delay: 16s;
-  }
-}
-@keyframes contact-fade {
-  0% {
-    opacity: 0;
-    transform: scale(1.04);
-  }
-  8%,
-  33% {
-    opacity: 0.9;
-  }
-  41%,
-  100% {
-    opacity: 0;
-    transform: scale(1);
   }
 }
 .section-contact h2 {
