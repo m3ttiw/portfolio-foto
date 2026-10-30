@@ -989,7 +989,7 @@
       "title": "Momenti",
       "place": null,
       "category": "territorio",
-      "hero": true,
+      "hero": false,
       "source": "behance",
       "link": "https://www.behance.net/gallery/255377965",
       "photos": [

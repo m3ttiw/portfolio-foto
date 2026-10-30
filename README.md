@@ -39,7 +39,7 @@ npm run photos   # riscarica le foto da Behance (content/projects.json)
 - Con `prefers-reduced-motion` la scena è ferma; c'è sempre il pulsante "Pausa animazione".
 - Il rendering si ferma fuori schermo e con la tab nascosta; DPR massimo 2 (1,5 su mobile).
 - Le foto stanno nel sito: il CDN di Behance non manda gli header CORS e non si possono usare come texture.
-- Nella hero non ci sono le foto di battesimo e comunione (minori).
+- Nella hero non ci sono le serie con minori (battesimo, comunione, Momenti).
 
 ## Da fare prima di andare online
 
