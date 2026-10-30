@@ -41,7 +41,7 @@ function pathsSection() {
     <div class="section-head">
       <div>
         <p class="section-kicker">Cosa fotografo</p>
-        <h2 id="servizi-title">Due strade, <em>uno sguardo</em></h2>
+        <h2 id="servizi-title">Per te <em>o per il tuo locale</em></h2>
       </div>
     </div>
     <div class="paths">${cards}</div>
