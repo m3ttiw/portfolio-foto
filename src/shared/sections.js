@@ -89,10 +89,9 @@ function aboutSection() {
     <div class="about" data-reveal-scroll>
       <div class="about-photo">Ritratto di Alessia</div>
       <div>
-        <span class="todo">Testo di prova, da scrivere con Alessia</span>
         <p class="section-kicker">Chi sono</p>
         <h2 id="chi-sono-title" class="visually-hidden">Chi sono</h2>
-        <p>Sono Alessia, fotografo persone e luoghi in Puglia, partendo da Molfetta.</p>
+        <p class="about-lead">Sono Alessia, fotografo persone e luoghi in Puglia, partendo da Molfetta.</p>
         <p>Cerco la luce vera e i momenti che succedono da soli: la tensione prima di una festa, le mani di uno chef, una pancia che aspetta. Lavoro con le famiglie per le loro ricorrenze e con locali e aziende che vogliono immagini oneste del loro lavoro.</p>
       </div>
     </div>
