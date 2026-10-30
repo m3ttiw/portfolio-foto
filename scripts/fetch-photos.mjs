@@ -2,6 +2,9 @@
 // Uso: npm run photos
 //
 // Fonte: content/projects.json (id delle immagini di ogni progetto Behance).
+// I progetti con "instagram" usano i file importati in .cache/raw-ig dal
+// plugin scripts/instagram-import.js: se la cache non c'è più, restano le
+// versioni già generate in public/photos.
 // Uscita: public/photos/<slug>/<nn>-<larghezza>.webp e src/data/photos.json.
 // Le foto stanno nel sito: il CDN di Behance non manda gli header CORS,
 // quindi non si possono usare come texture WebGL.
@@ -31,15 +34,27 @@ async function download(id) {
   return file;
 }
 
+async function source(project, id, outDir, name) {
+  if (!project.instagram) return download(id);
+  const raw = path.join(root, '.cache/raw-ig', id);
+  if (await exists(raw)) return raw;
+  return path.join(outDir, `${name}-${WIDTHS.at(-1)}.webp`); // già generata
+}
+
+const link = (project) =>
+  project.instagram
+    ? `${content.photographer.instagram}p/${project.instagram}/`
+    : `https://www.behance.net/gallery/${project.behance}`;
+
 const projects = [];
 for (const project of content.projects) {
   const outDir = path.join(root, 'public/photos', project.slug);
   await mkdir(outDir, { recursive: true });
   const photos = [];
   for (const [i, id] of project.photos.entries()) {
-    const raw = await download(id);
-    const meta = await sharp(raw).metadata();
     const name = String(i + 1).padStart(2, '0');
+    const raw = await source(project, id, outDir, name);
+    const meta = await sharp(raw).metadata();
     const srcset = {};
     for (const w of WIDTHS) {
       const out = path.join(outDir, `${name}-${w}.webp`);
@@ -57,7 +72,8 @@ for (const project of content.projects) {
     place: project.place ?? null,
     category: project.category,
     hero: project.hero !== false,
-    behance: `https://www.behance.net/gallery/${project.behance}`,
+    source: project.instagram ? 'instagram' : 'behance',
+    link: link(project),
     photos,
   });
   console.log(`${project.slug}: ${photos.length} foto`);

@@ -1,4 +1,5 @@
 import { AREAS, asset, areaOf, categoryById, photographer, projectBySlug, projects } from './data.js';
+import { easterEgg } from './easter.js';
 
 const srcset = (photo) =>
   Object.entries(photo.srcset)
@@ -20,7 +21,7 @@ function pathsSection() {
   const cards = Object.entries(AREAS)
     .map(([key, area]) => {
       const cover = projectBySlug(area.cover).photos[0];
-      const cats = area.categories.map((id) => `<li>${categoryById[id].label}</li>`).join('');
+      const cats = area.services.map((s) => `<li>${s}</li>`).join('');
       return `
       <article class="path" data-reveal-scroll>
         ${img(cover, '', '(min-width: 820px) 50vw, 100vw')}
@@ -53,7 +54,7 @@ function worksSection() {
       const cat = categoryById[p.category].label;
       return `
       <article class="work" data-slug="${p.slug}" data-area="${areaOf(p.category)}" data-reveal-scroll>
-        <a href="${p.behance}" target="_blank" rel="noopener">
+        <a href="${p.link}" target="_blank" rel="noopener">
           <div class="work-media">${img(p.photos[0], altFor(p), '(min-width: 1000px) 33vw, (min-width: 560px) 50vw, 100vw')}</div>
           <div class="work-meta">
             <div>
@@ -110,8 +111,8 @@ function contactSection() {
         <div class="contact-links">
           <a class="btn btn-primary" href="#contatti" data-todo="numero WhatsApp">WhatsApp</a>
           <a class="btn" href="#contatti" data-todo="email">Email</a>
+          <a class="btn" href="${photographer.instagram}" target="_blank" rel="noopener">Instagram</a>
           <a class="btn" href="${behanceA}" target="_blank" rel="noopener">Behance</a>
-          <a class="btn" href="${behanceB}" target="_blank" rel="noopener">Behance ritratti</a>
         </div>
       </div>
       <form class="form" novalidate>
@@ -138,6 +139,7 @@ function contactSection() {
                 <option>Pre-parto / maternità</option>
                 <option>Battesimo</option>
                 <option>Comunione</option>
+                <option>Laurea</option>
                 <option>Altra ricorrenza o festa privata</option>
               </optgroup>
               <optgroup label="Aziende" data-area="aziende">
@@ -159,6 +161,7 @@ function contactSection() {
               <option>Oltre 1.000 €</option>
             </select>
           </label>
+          <label class="full check"><input type="checkbox" name="stampe_live" /> Vorrei le stampe live durante l'evento</label>
         </fieldset>
 
         <fieldset>
@@ -212,8 +215,9 @@ function contactSection() {
     </div>
   </section>
   <footer class="site-footer">
-    <span>© 2026 ${photographer.name} · ${photographer.place}</span>
+    <span>© 2026 ${photographer.name}<button class="egg" type="button" aria-label="Una sorpresa">·</button>${photographer.place}</span>
     <nav aria-label="Profili">
+      <a href="${photographer.instagram}" target="_blank" rel="noopener">Instagram</a>
       <a href="${behanceA}" target="_blank" rel="noopener">Behance</a>
       <a href="${behanceB}" target="_blank" rel="noopener">Behance ritratti</a>
     </nav>
@@ -285,6 +289,7 @@ export function renderSections(root) {
   applyFilter = wireFilters(root);
   wireForm(root);
   revealOnScroll(root);
+  easterEgg(root.querySelector('.egg'));
 }
 
 // Dalla hero al progetto nella griglia (click su una foto della scena).

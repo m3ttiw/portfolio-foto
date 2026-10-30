@@ -5,7 +5,8 @@
     "behance": [
       "https://www.behance.net/alessiagermina",
       "https://www.behance.net/alessiagermina2"
-    ]
+    ],
+    "instagram": "https://www.instagram.com/alexia.events/"
   },
   "categories": [
     {
@@ -26,7 +27,7 @@
     {
       "id": "eventi",
       "label": "Eventi",
-      "blurb": "Feste, cene aziendali, reportage."
+      "blurb": "Serate nei locali, feste, cene aziendali, reportage."
     },
     {
       "id": "territorio",
@@ -36,12 +37,179 @@
   ],
   "projects": [
     {
+      "slug": "country-club-molfetta",
+      "title": "Country Club",
+      "place": "Molfetta",
+      "category": "eventi",
+      "hero": true,
+      "source": "instagram",
+      "link": "https://www.instagram.com/alexia.events/p/C5X79zZt4mC/",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/country-club-molfetta/01-480.webp",
+            "800": "photos/country-club-molfetta/01-800.webp",
+            "1400": "photos/country-club-molfetta/01-1400.webp"
+          },
+          "w": 1440,
+          "h": 963
+        },
+        {
+          "srcset": {
+            "480": "photos/country-club-molfetta/02-480.webp",
+            "800": "photos/country-club-molfetta/02-800.webp",
+            "1400": "photos/country-club-molfetta/02-1400.webp"
+          },
+          "w": 1440,
+          "h": 960
+        },
+        {
+          "srcset": {
+            "480": "photos/country-club-molfetta/03-480.webp",
+            "800": "photos/country-club-molfetta/03-800.webp",
+            "1400": "photos/country-club-molfetta/03-1400.webp"
+          },
+          "w": 1440,
+          "h": 960
+        },
+        {
+          "srcset": {
+            "480": "photos/country-club-molfetta/04-480.webp",
+            "800": "photos/country-club-molfetta/04-800.webp",
+            "1400": "photos/country-club-molfetta/04-1400.webp"
+          },
+          "w": 1440,
+          "h": 969
+        },
+        {
+          "srcset": {
+            "480": "photos/country-club-molfetta/05-480.webp",
+            "800": "photos/country-club-molfetta/05-800.webp",
+            "1400": "photos/country-club-molfetta/05-1400.webp"
+          },
+          "w": 1440,
+          "h": 969
+        },
+        {
+          "srcset": {
+            "480": "photos/country-club-molfetta/06-480.webp",
+            "800": "photos/country-club-molfetta/06-800.webp",
+            "1400": "photos/country-club-molfetta/06-1400.webp"
+          },
+          "w": 1440,
+          "h": 903
+        },
+        {
+          "srcset": {
+            "480": "photos/country-club-molfetta/07-480.webp",
+            "800": "photos/country-club-molfetta/07-800.webp",
+            "1400": "photos/country-club-molfetta/07-1400.webp"
+          },
+          "w": 1440,
+          "h": 905
+        },
+        {
+          "srcset": {
+            "480": "photos/country-club-molfetta/08-480.webp",
+            "800": "photos/country-club-molfetta/08-800.webp",
+            "1400": "photos/country-club-molfetta/08-1400.webp"
+          },
+          "w": 1440,
+          "h": 905
+        }
+      ]
+    },
+    {
+      "slug": "notte-al-pub",
+      "title": "Notte al pub",
+      "place": null,
+      "category": "eventi",
+      "hero": true,
+      "source": "instagram",
+      "link": "https://www.instagram.com/alexia.events/p/DBlw55vICcp/",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/notte-al-pub/01-480.webp",
+            "800": "photos/notte-al-pub/01-800.webp",
+            "1400": "photos/notte-al-pub/01-1400.webp"
+          },
+          "w": 1440,
+          "h": 1800
+        },
+        {
+          "srcset": {
+            "480": "photos/notte-al-pub/02-480.webp",
+            "800": "photos/notte-al-pub/02-800.webp",
+            "1400": "photos/notte-al-pub/02-1400.webp"
+          },
+          "w": 1440,
+          "h": 1800
+        },
+        {
+          "srcset": {
+            "480": "photos/notte-al-pub/03-480.webp",
+            "800": "photos/notte-al-pub/03-800.webp",
+            "1400": "photos/notte-al-pub/03-1400.webp"
+          },
+          "w": 1440,
+          "h": 1800
+        },
+        {
+          "srcset": {
+            "480": "photos/notte-al-pub/04-480.webp",
+            "800": "photos/notte-al-pub/04-800.webp",
+            "1400": "photos/notte-al-pub/04-1400.webp"
+          },
+          "w": 1440,
+          "h": 1800
+        },
+        {
+          "srcset": {
+            "480": "photos/notte-al-pub/05-480.webp",
+            "800": "photos/notte-al-pub/05-800.webp",
+            "1400": "photos/notte-al-pub/05-1400.webp"
+          },
+          "w": 1440,
+          "h": 1800
+        },
+        {
+          "srcset": {
+            "480": "photos/notte-al-pub/06-480.webp",
+            "800": "photos/notte-al-pub/06-800.webp",
+            "1400": "photos/notte-al-pub/06-1400.webp"
+          },
+          "w": 1440,
+          "h": 1800
+        },
+        {
+          "srcset": {
+            "480": "photos/notte-al-pub/07-480.webp",
+            "800": "photos/notte-al-pub/07-800.webp",
+            "1400": "photos/notte-al-pub/07-1400.webp"
+          },
+          "w": 1440,
+          "h": 1800
+        },
+        {
+          "srcset": {
+            "480": "photos/notte-al-pub/08-480.webp",
+            "800": "photos/notte-al-pub/08-800.webp",
+            "1400": "photos/notte-al-pub/08-1400.webp"
+          },
+          "w": 1440,
+          "h": 1800
+        }
+      ]
+    },
+    {
       "slug": "rivera-cantina",
       "title": "Rivera – Cantina di Puglia",
       "place": null,
       "category": "food",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/256051971",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/256051971",
       "photos": [
         {
           "srcset": {
@@ -105,7 +273,8 @@
       "place": "Barletta",
       "category": "food",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/249859175",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/249859175",
       "photos": [
         {
           "srcset": {
@@ -169,7 +338,8 @@
       "place": null,
       "category": "food",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/242318581",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/242318581",
       "photos": [
         {
           "srcset": {
@@ -233,7 +403,8 @@
       "place": null,
       "category": "food",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/252661755",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/252661755",
       "photos": [
         {
           "srcset": {
@@ -297,7 +468,8 @@
       "place": "Trani",
       "category": "food",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/241788935",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/241788935",
       "photos": [
         {
           "srcset": {
@@ -361,7 +533,8 @@
       "place": "Andria",
       "category": "food",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/237956363",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/237956363",
       "photos": [
         {
           "srcset": {
@@ -425,7 +598,8 @@
       "place": "Barletta",
       "category": "eventi",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/241790133",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/241790133",
       "photos": [
         {
           "srcset": {
@@ -489,7 +663,8 @@
       "place": null,
       "category": "eventi",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/229890067",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/229890067",
       "photos": [
         {
           "srcset": {
@@ -553,7 +728,8 @@
       "place": null,
       "category": "eventi",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/235848865",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/235848865",
       "photos": [
         {
           "srcset": {
@@ -612,12 +788,80 @@
       ]
     },
     {
+      "slug": "luci-da-club",
+      "title": "Luci da club",
+      "place": null,
+      "category": "eventi",
+      "hero": true,
+      "source": "instagram",
+      "link": "https://www.instagram.com/alexia.events/p/C5lDCWWtvs0/",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/luci-da-club/01-480.webp",
+            "800": "photos/luci-da-club/01-800.webp",
+            "1400": "photos/luci-da-club/01-1400.webp"
+          },
+          "w": 1440,
+          "h": 960
+        },
+        {
+          "srcset": {
+            "480": "photos/luci-da-club/02-480.webp",
+            "800": "photos/luci-da-club/02-800.webp",
+            "1400": "photos/luci-da-club/02-1400.webp"
+          },
+          "w": 1440,
+          "h": 962
+        },
+        {
+          "srcset": {
+            "480": "photos/luci-da-club/03-480.webp",
+            "800": "photos/luci-da-club/03-800.webp",
+            "1400": "photos/luci-da-club/03-1400.webp"
+          },
+          "w": 1440,
+          "h": 961
+        }
+      ]
+    },
+    {
+      "slug": "luna-park",
+      "title": "Luna park",
+      "place": null,
+      "category": "territorio",
+      "hero": true,
+      "source": "instagram",
+      "link": "https://www.instagram.com/alexia.events/p/C4XptXzNHRa/",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/luna-park/01-480.webp",
+            "800": "photos/luna-park/01-800.webp",
+            "1400": "photos/luna-park/01-1400.webp"
+          },
+          "w": 1440,
+          "h": 1659
+        },
+        {
+          "srcset": {
+            "480": "photos/luna-park/02-480.webp",
+            "800": "photos/luna-park/02-800.webp",
+            "1400": "photos/luna-park/02-1400.webp"
+          },
+          "w": 1440,
+          "h": 1659
+        }
+      ]
+    },
+    {
       "slug": "meraviglioso-giovinazzo",
       "title": "Meraviglioso Giovinazzo",
       "place": "Giovinazzo",
       "category": "territorio",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/255377301",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/255377301",
       "photos": [
         {
           "srcset": {
@@ -681,7 +925,8 @@
       "place": null,
       "category": "territorio",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/253027453",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/253027453",
       "photos": [
         {
           "srcset": {
@@ -745,7 +990,8 @@
       "place": null,
       "category": "territorio",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/255377965",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/255377965",
       "photos": [
         {
           "srcset": {
@@ -809,7 +1055,8 @@
       "place": null,
       "category": "ricorrenze",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/255110039",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/255110039",
       "photos": [
         {
           "srcset": {
@@ -873,7 +1120,8 @@
       "place": null,
       "category": "ricorrenze",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/255952545",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/255952545",
       "photos": [
         {
           "srcset": {
@@ -937,7 +1185,8 @@
       "place": null,
       "category": "ricorrenze",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/248722871",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/248722871",
       "photos": [
         {
           "srcset": {
@@ -1001,7 +1250,8 @@
       "place": null,
       "category": "ricorrenze",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/250103537",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/250103537",
       "photos": [
         {
           "srcset": {
@@ -1065,7 +1315,8 @@
       "place": null,
       "category": "ricorrenze",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/250659683",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/250659683",
       "photos": [
         {
           "srcset": {
@@ -1129,7 +1380,8 @@
       "place": null,
       "category": "ricorrenze",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/235802569",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/235802569",
       "photos": [
         {
           "srcset": {
@@ -1193,7 +1445,8 @@
       "place": null,
       "category": "ricorrenze",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/235780875",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/235780875",
       "photos": [
         {
           "srcset": {
@@ -1257,7 +1510,8 @@
       "place": null,
       "category": "ricorrenze",
       "hero": false,
-      "behance": "https://www.behance.net/gallery/241796267",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/241796267",
       "photos": [
         {
           "srcset": {
@@ -1321,7 +1575,8 @@
       "place": null,
       "category": "ricorrenze",
       "hero": false,
-      "behance": "https://www.behance.net/gallery/250422833",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/250422833",
       "photos": [
         {
           "srcset": {
@@ -1385,7 +1640,8 @@
       "place": null,
       "category": "maternita",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/235808373",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/235808373",
       "photos": [
         {
           "srcset": {
@@ -1449,7 +1705,8 @@
       "place": null,
       "category": "maternita",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/250876019",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/250876019",
       "photos": [
         {
           "srcset": {
@@ -1513,7 +1770,8 @@
       "place": null,
       "category": "maternita",
       "hero": true,
-      "behance": "https://www.behance.net/gallery/252965095",
+      "source": "behance",
+      "link": "https://www.behance.net/gallery/252965095",
       "photos": [
         {
           "srcset": {

@@ -5,16 +5,19 @@
     "behance": [
       "https://www.behance.net/alessiagermina",
       "https://www.behance.net/alessiagermina2"
-    ]
+    ],
+    "instagram": "https://www.instagram.com/alexia.events/"
   },
   "categories": [
     { "id": "ricorrenze", "label": "Ricorrenze", "blurb": "Diciottesimi, battesimi, comunioni." },
     { "id": "maternita", "label": "Maternità", "blurb": "Servizi pre-parto, in studio e all'aperto." },
     { "id": "food", "label": "Food & locali", "blurb": "Piatti, cocktail e ambienti per ristoranti, bar e cantine." },
-    { "id": "eventi", "label": "Eventi", "blurb": "Feste, cene aziendali, reportage." },
+    { "id": "eventi", "label": "Eventi", "blurb": "Serate nei locali, feste, cene aziendali, reportage." },
     { "id": "territorio", "label": "Territorio", "blurb": "Luoghi e persone della Puglia." }
   ],
   "projects": [
+    { "slug": "country-club-molfetta", "title": "Country Club", "place": "Molfetta", "category": "eventi", "instagram": "C5X79zZt4mC", "photos": ["C5dWjQqtGxt-02.jpg", "C5dWjQqtGxt-05.jpg", "C5dWjQqtGxt-01.jpg", "C5aiFsyNb74-02.jpg", "C5aiFsyNb74-04.jpg", "C5X79zZt4mC-01.jpg", "C5X79zZt4mC-04.jpg", "C5X79zZt4mC-05.jpg"] },
+    { "slug": "notte-al-pub", "title": "Notte al pub", "category": "eventi", "instagram": "DBlw55vICcp", "photos": ["DBlw55vICcp-04.jpg", "DBlw55vICcp-07.jpg", "DBlw55vICcp-03.jpg", "DBlw55vICcp-05.jpg", "DBlw55vICcp-09.jpg", "DBilNHPgajA-01.jpg", "DBilNHPgajA-05.jpg", "DBilNHPgajA-06.jpg"] },
     { "slug": "rivera-cantina", "title": "Rivera – Cantina di Puglia", "category": "food", "behance": 256051971, "photos": ["041b54256051971.6ab1a3220f463.jpg", "a92070256051971.6ab1a32212403.jpg", "e56915256051971.6ab1a322141c3.jpg", "39751f256051971.6ab1a32211141.jpg", "5e6e1b256051971.6ab1a3221605a.jpg", "41c321256051971.6ab1a32213749.jpg"] },
     { "slug": "plaza-barletta", "title": "Plaza", "place": "Barletta", "category": "food", "behance": 249859175, "photos": ["0e409e249859175.6a10ab9165bc2.jpg", "5aa7b2249859175.6a10ab9166d88.jpg", "49ce35249859175.6a10ab9166967.jpg", "38edcb249859175.6a10ab916721e.jpg", "c85170249859175.6a10ab91683ea.jpg", "0c1827249859175.6a10ab916b78a.jpg"] },
     { "slug": "cannaruto-food", "title": "Cannaruto", "category": "food", "behance": 242318581, "photos": ["5049b1242318581.696a55c812115.jpg", "aa335b242318581.696a55c81d84b.jpg", "01b490242318581.696a55c81e27c.jpg", "b933d5242318581.696a55c814955.jpg", "f8bce4242318581.696a55c815028.jpg", "b35abb242318581.696a55c813bdb.jpg"] },
@@ -24,6 +27,8 @@
     { "slug": "cena-aziendale-barletta", "title": "Cena aziendale 40", "place": "Barletta", "category": "eventi", "behance": 241790133, "photos": ["c6b3ab241790133.695f9d83558b5.jpg", "64eb70241790133.695f9d835ea6b.jpg", "0c5e15241790133.695f9d8359637.jpg", "58e36e241790133.695f9d835b45b.jpg", "4ce897241790133.695f9d835a302.jpg", "8d002b241790133.695f9d83590f8.jpg"] },
     { "slug": "pool-party", "title": "Pool party", "category": "eventi", "behance": 229890067, "photos": ["0c6fd8229890067.686d1e9632900.jpg", "4bf7d6229890067.686d1e9633c4b.jpg", "583043229890067.686d1e963443f.jpg", "a0ecde229890067.686d1e963660b.jpg", "da96f4229890067.686d1e9635474.jpg", "b24a01229890067.686d1e9634d3b.jpg"] },
     { "slug": "ultras", "title": "Ultras", "category": "eventi", "behance": 235848865, "photos": ["e41bae235848865.68df928420e5e.jpg", "d51345235848865.68df9284237ec.jpg", "d2d8b8235848865.68df92842485d.jpg", "de274a235848865.68df928423283.jpg", "137266235848865.68df9284267bc.jpg", "40e225235848865.68df928424dc9.jpg"] },
+    { "slug": "luci-da-club", "title": "Luci da club", "category": "eventi", "instagram": "C5lDCWWtvs0", "photos": ["C5lDCWWtvs0-01.jpg", "C5lDCWWtvs0-02.jpg", "C5iiN1JNsbA-01.jpg"] },
+    { "slug": "luna-park", "title": "Luna park", "category": "territorio", "instagram": "C4XptXzNHRa", "photos": ["C4XptXzNHRa-01.jpg", "C4XptXzNHRa-02.jpg"] },
     { "slug": "meraviglioso-giovinazzo", "title": "Meraviglioso Giovinazzo", "place": "Giovinazzo", "category": "territorio", "behance": 255377301, "photos": ["55c559255377301.6a9edff602fdc.jpg", "4c5d60255377301.6a9edff6084ea.jpg", "b5488b255377301.6a9edff60c345.jpg", "d80529255377301.6a9edff607dea.jpg", "25d709255377301.6a9edff606786.jpg", "9512df255377301.6a9edff603752.jpg"] },
     { "slug": "ambiente", "title": "Ambiente", "category": "territorio", "behance": 253027453, "photos": ["d72032253027453.6a5e6ffaf0b86.jpg", "e3500d253027453.6a5e6ffb04ac5.jpg", "f2fc14253027453.6a5e6ffb0111d.jpg", "6509b8253027453.6a5e6ffb040dd.jpg", "06bd0e253027453.6a5e6ffaf1135.jpg", "568145253027453.6a5e6ffb02cbc.jpg"] },
     { "slug": "momenti", "title": "Momenti", "category": "territorio", "behance": 255377965, "photos": ["71c7e8255377965.6a9ee38b86824.jpg", "c908bf255377965.6a9ee38b883c3.jpg", "5e480c255377965.6a9ee38b87351.jpg", "db204f255377965.6a9ee38b8c42e.jpg", "156c9b255377965.6a9ee38b8a7ca.jpg", "a88c0b255377965.6a9ee38b86d33.jpg"] },

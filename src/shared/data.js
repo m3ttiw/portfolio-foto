@@ -7,8 +7,9 @@ export const AREAS = {
   privati: {
     label: 'Privati',
     title: 'Ricorrenze e maternità',
-    blurb: 'Diciottesimi, pre-parto, battesimi e comunioni: le giornate da ricordare, raccontate con calma e luce naturale.',
+    blurb: 'Diciottesimi, pre-parto, battesimi, comunioni e lauree: le giornate da ricordare, raccontate con calma e luce naturale.',
     categories: ['ricorrenze', 'maternita'],
+    services: ['Diciottesimi', 'Pre-parto', 'Battesimi e comunioni', 'Lauree'],
     cover: '18-giusy',
   },
   aziende: {
@@ -16,6 +17,7 @@ export const AREAS = {
     title: 'Food, locali ed eventi',
     blurb: 'Piatti, cocktail, cantine e serate per ristoranti, bar e brand che vogliono farsi vedere come sono davvero.',
     categories: ['food', 'eventi', 'territorio'],
+    services: ['Food e locali', 'Serate ed eventi', 'Cantine', 'Stampe live'],
     cover: 'rivera-cantina',
   },
 };

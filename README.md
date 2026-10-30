@@ -25,8 +25,10 @@ npm run photos   # riscarica le foto da Behance (content/projects.json)
 
 ## Struttura
 
-- `content/projects.json`: progetti, categorie e id delle foto su Behance. È la fonte da modificare.
+- `content/projects.json`: progetti, categorie e id delle foto su Behance e Instagram. È la fonte da modificare.
 - `scripts/fetch-photos.mjs`: scarica le foto e crea le versioni WebP a 480, 800 e 1400 px in `public/photos/`, più il manifest `src/data/photos.json`.
+- `scripts/instagram-import.js`: plugin di Vite (solo `npm run dev`) che riceve dal browser gli indirizzi delle foto di [@alexia.events](https://www.instagram.com/alexia.events/) e le salva in `.cache/raw-ig/`. Gli indirizzi di Instagram scadono: si importano subito dopo averli raccolti.
+- Easter egg: il puntino tra nome e città nel footer apre un selfie di Alessia (`src/shared/easter.js`).
 - `src/three/`: renderer condiviso (`stage.js`) e shader delle card (`cards.js`: sfocatura di profondità, aberrazione cromatica, angoli arrotondati, rigonfiamento sotto il puntatore).
 - `src/drafts/`: una scena per bozza.
 - `src/shared/`: dati, sezioni della pagina, titolo animato, pulsante pausa.
