@@ -578,7 +578,7 @@ a {
   font-size: 0.85rem;
   background: var(--bg-2);
 }
-.about p {
+.about p:not(.section-kicker) {
   font-size: 1.08rem;
   color: var(--muted);
 }
