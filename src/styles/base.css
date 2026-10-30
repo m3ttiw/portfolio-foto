@@ -6,8 +6,8 @@
   --ink: #f3ede6;
   --muted: #a69c91;
   --line: rgba(243, 237, 230, 0.12);
-  --accent: #e0533d;
-  --accent-ink: #160a07;
+  --accent: #b39cf7; /* lavanda */
+  --accent-ink: #160f2c;
   --halo: rgba(14, 12, 11, 0.72);
   color-scheme: dark;
 }
@@ -17,8 +17,8 @@
   --ink: #1d1915;
   --muted: #6f665c;
   --line: rgba(29, 25, 21, 0.14);
-  --accent: #b8432f;
-  --accent-ink: #fff7f0;
+  --accent: #5b3cc4; /* viola */
+  --accent-ink: #fbf9ff;
   --halo: rgba(242, 236, 227, 0.78);
 }
 :root[data-theme='galleria'] {
@@ -27,7 +27,7 @@
   --ink: #121212;
   --muted: #6b6965;
   --line: rgba(18, 18, 18, 0.12);
-  --accent: #c23a2b;
+  --accent: #3f3aa8; /* indaco */
   --accent-ink: #fff;
   --halo: rgba(239, 238, 234, 0.8);
 }

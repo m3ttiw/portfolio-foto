@@ -47,7 +47,7 @@ const ribbonVertex = /* glsl */ `
     vReveal = reveal;
     vPulse = aArm < 0.5 ? uPulse[0] : (aArm < 1.5 ? uPulse[1] : uPulse[2]);
     vec3 p = position;
-    p.xy += aN * aSide * (0.022 + 0.13 * vG) * 0.5;
+    p.xy += aN * aSide * (0.03 + 0.16 * vG) * 0.5;
     gl_Position = projectionMatrix * modelViewMatrix * vec4(p, 1.0);
   }
 `;
@@ -62,7 +62,7 @@ const ribbonFragment = /* glsl */ `
   void main() {
     float edge = 1.0 - smoothstep(0.35, 1.0, abs(vSide));
     vec3 col = mix(uBase, vPulse, clamp(vG, 0.0, 1.0));
-    gl_FragColor = vec4(col, (0.13 * vReveal + 1.0 * vG) * edge);
+    gl_FragColor = vec4(col, (0.16 * vReveal + 1.0 * vG) * edge);
   }
 `;
 
@@ -109,10 +109,12 @@ function ribbons() {
       uTime: { value: 0 },
       uWave: { value: 0 },
       uBase: { value: srgb('#f3ede6') },
-      uPulse: { value: [srgb('#e0533d'), srgb('#f0a24a'), srgb('#d9677e')] },
+      // Viola, lavanda e indaco: i colori preferiti di Alessia.
+      uPulse: { value: [srgb('#8b5cf6'), srgb('#c4b5fd'), srgb('#6366f1')] },
     },
     transparent: true,
     depthWrite: false,
+    side: THREE.DoubleSide,
     blending: THREE.AdditiveBlending,
   });
   return new THREE.Mesh(g, material);
@@ -250,3 +252,4 @@ const stage = createStage(hero.querySelector('.hero-stage'), { fov: 30 });
 motionToggle(hero, stage);
 if (stage) buildSpiral(stage);
 else fallbackCollage(hero);
+if (import.meta.env.DEV) window.__stage = stage;
