@@ -1,0 +1,1575 @@
+{
+  "photographer": {
+    "name": "Alessia Germinario",
+    "place": "Molfetta, Puglia",
+    "behance": [
+      "https://www.behance.net/alessiagermina",
+      "https://www.behance.net/alessiagermina2"
+    ]
+  },
+  "categories": [
+    {
+      "id": "ricorrenze",
+      "label": "Ricorrenze",
+      "blurb": "Diciottesimi, battesimi, comunioni."
+    },
+    {
+      "id": "maternita",
+      "label": "Maternità",
+      "blurb": "Servizi pre-parto, in studio e all'aperto."
+    },
+    {
+      "id": "food",
+      "label": "Food & locali",
+      "blurb": "Piatti, cocktail e ambienti per ristoranti, bar e cantine."
+    },
+    {
+      "id": "eventi",
+      "label": "Eventi",
+      "blurb": "Feste, cene aziendali, reportage."
+    },
+    {
+      "id": "territorio",
+      "label": "Territorio",
+      "blurb": "Luoghi e persone della Puglia."
+    }
+  ],
+  "projects": [
+    {
+      "slug": "rivera-cantina",
+      "title": "Rivera – Cantina di Puglia",
+      "place": null,
+      "category": "food",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/256051971",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/rivera-cantina/01-480.webp",
+            "800": "photos/rivera-cantina/01-800.webp",
+            "1400": "photos/rivera-cantina/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/rivera-cantina/02-480.webp",
+            "800": "photos/rivera-cantina/02-800.webp",
+            "1400": "photos/rivera-cantina/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/rivera-cantina/03-480.webp",
+            "800": "photos/rivera-cantina/03-800.webp",
+            "1400": "photos/rivera-cantina/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/rivera-cantina/04-480.webp",
+            "800": "photos/rivera-cantina/04-800.webp",
+            "1400": "photos/rivera-cantina/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/rivera-cantina/05-480.webp",
+            "800": "photos/rivera-cantina/05-800.webp",
+            "1400": "photos/rivera-cantina/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/rivera-cantina/06-480.webp",
+            "800": "photos/rivera-cantina/06-800.webp",
+            "1400": "photos/rivera-cantina/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        }
+      ]
+    },
+    {
+      "slug": "plaza-barletta",
+      "title": "Plaza",
+      "place": "Barletta",
+      "category": "food",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/249859175",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/plaza-barletta/01-480.webp",
+            "800": "photos/plaza-barletta/01-800.webp",
+            "1400": "photos/plaza-barletta/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/plaza-barletta/02-480.webp",
+            "800": "photos/plaza-barletta/02-800.webp",
+            "1400": "photos/plaza-barletta/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/plaza-barletta/03-480.webp",
+            "800": "photos/plaza-barletta/03-800.webp",
+            "1400": "photos/plaza-barletta/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/plaza-barletta/04-480.webp",
+            "800": "photos/plaza-barletta/04-800.webp",
+            "1400": "photos/plaza-barletta/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/plaza-barletta/05-480.webp",
+            "800": "photos/plaza-barletta/05-800.webp",
+            "1400": "photos/plaza-barletta/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/plaza-barletta/06-480.webp",
+            "800": "photos/plaza-barletta/06-800.webp",
+            "1400": "photos/plaza-barletta/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        }
+      ]
+    },
+    {
+      "slug": "cannaruto-food",
+      "title": "Cannaruto",
+      "place": null,
+      "category": "food",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/242318581",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/cannaruto-food/01-480.webp",
+            "800": "photos/cannaruto-food/01-800.webp",
+            "1400": "photos/cannaruto-food/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/cannaruto-food/02-480.webp",
+            "800": "photos/cannaruto-food/02-800.webp",
+            "1400": "photos/cannaruto-food/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/cannaruto-food/03-480.webp",
+            "800": "photos/cannaruto-food/03-800.webp",
+            "1400": "photos/cannaruto-food/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/cannaruto-food/04-480.webp",
+            "800": "photos/cannaruto-food/04-800.webp",
+            "1400": "photos/cannaruto-food/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/cannaruto-food/05-480.webp",
+            "800": "photos/cannaruto-food/05-800.webp",
+            "1400": "photos/cannaruto-food/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/cannaruto-food/06-480.webp",
+            "800": "photos/cannaruto-food/06-800.webp",
+            "1400": "photos/cannaruto-food/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        }
+      ]
+    },
+    {
+      "slug": "food",
+      "title": "Food",
+      "place": null,
+      "category": "food",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/252661755",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/food/01-480.webp",
+            "800": "photos/food/01-800.webp",
+            "1400": "photos/food/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/food/02-480.webp",
+            "800": "photos/food/02-800.webp",
+            "1400": "photos/food/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/food/03-480.webp",
+            "800": "photos/food/03-800.webp",
+            "1400": "photos/food/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/food/04-480.webp",
+            "800": "photos/food/04-800.webp",
+            "1400": "photos/food/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/food/05-480.webp",
+            "800": "photos/food/05-800.webp",
+            "1400": "photos/food/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/food/06-480.webp",
+            "800": "photos/food/06-800.webp",
+            "1400": "photos/food/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        }
+      ]
+    },
+    {
+      "slug": "le-lampare-trani",
+      "title": "Le Lampare al Fortino",
+      "place": "Trani",
+      "category": "food",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/241788935",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/le-lampare-trani/01-480.webp",
+            "800": "photos/le-lampare-trani/01-800.webp",
+            "1400": "photos/le-lampare-trani/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/le-lampare-trani/02-480.webp",
+            "800": "photos/le-lampare-trani/02-800.webp",
+            "1400": "photos/le-lampare-trani/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/le-lampare-trani/03-480.webp",
+            "800": "photos/le-lampare-trani/03-800.webp",
+            "1400": "photos/le-lampare-trani/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/le-lampare-trani/04-480.webp",
+            "800": "photos/le-lampare-trani/04-800.webp",
+            "1400": "photos/le-lampare-trani/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/le-lampare-trani/05-480.webp",
+            "800": "photos/le-lampare-trani/05-800.webp",
+            "1400": "photos/le-lampare-trani/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/le-lampare-trani/06-480.webp",
+            "800": "photos/le-lampare-trani/06-800.webp",
+            "1400": "photos/le-lampare-trani/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        }
+      ]
+    },
+    {
+      "slug": "spritzzeria-andria",
+      "title": "Spritzzeria",
+      "place": "Andria",
+      "category": "food",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/237956363",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/spritzzeria-andria/01-480.webp",
+            "800": "photos/spritzzeria-andria/01-800.webp",
+            "1400": "photos/spritzzeria-andria/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/spritzzeria-andria/02-480.webp",
+            "800": "photos/spritzzeria-andria/02-800.webp",
+            "1400": "photos/spritzzeria-andria/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 1718
+        },
+        {
+          "srcset": {
+            "480": "photos/spritzzeria-andria/03-480.webp",
+            "800": "photos/spritzzeria-andria/03-800.webp",
+            "1400": "photos/spritzzeria-andria/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/spritzzeria-andria/04-480.webp",
+            "800": "photos/spritzzeria-andria/04-800.webp",
+            "1400": "photos/spritzzeria-andria/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/spritzzeria-andria/05-480.webp",
+            "800": "photos/spritzzeria-andria/05-800.webp",
+            "1400": "photos/spritzzeria-andria/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/spritzzeria-andria/06-480.webp",
+            "800": "photos/spritzzeria-andria/06-800.webp",
+            "1400": "photos/spritzzeria-andria/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 1825
+        }
+      ]
+    },
+    {
+      "slug": "cena-aziendale-barletta",
+      "title": "Cena aziendale 40",
+      "place": "Barletta",
+      "category": "eventi",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/241790133",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/cena-aziendale-barletta/01-480.webp",
+            "800": "photos/cena-aziendale-barletta/01-800.webp",
+            "1400": "photos/cena-aziendale-barletta/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/cena-aziendale-barletta/02-480.webp",
+            "800": "photos/cena-aziendale-barletta/02-800.webp",
+            "1400": "photos/cena-aziendale-barletta/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/cena-aziendale-barletta/03-480.webp",
+            "800": "photos/cena-aziendale-barletta/03-800.webp",
+            "1400": "photos/cena-aziendale-barletta/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/cena-aziendale-barletta/04-480.webp",
+            "800": "photos/cena-aziendale-barletta/04-800.webp",
+            "1400": "photos/cena-aziendale-barletta/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/cena-aziendale-barletta/05-480.webp",
+            "800": "photos/cena-aziendale-barletta/05-800.webp",
+            "1400": "photos/cena-aziendale-barletta/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/cena-aziendale-barletta/06-480.webp",
+            "800": "photos/cena-aziendale-barletta/06-800.webp",
+            "1400": "photos/cena-aziendale-barletta/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        }
+      ]
+    },
+    {
+      "slug": "pool-party",
+      "title": "Pool party",
+      "place": null,
+      "category": "eventi",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/229890067",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/pool-party/01-480.webp",
+            "800": "photos/pool-party/01-800.webp",
+            "1400": "photos/pool-party/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/pool-party/02-480.webp",
+            "800": "photos/pool-party/02-800.webp",
+            "1400": "photos/pool-party/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/pool-party/03-480.webp",
+            "800": "photos/pool-party/03-800.webp",
+            "1400": "photos/pool-party/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/pool-party/04-480.webp",
+            "800": "photos/pool-party/04-800.webp",
+            "1400": "photos/pool-party/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/pool-party/05-480.webp",
+            "800": "photos/pool-party/05-800.webp",
+            "1400": "photos/pool-party/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/pool-party/06-480.webp",
+            "800": "photos/pool-party/06-800.webp",
+            "1400": "photos/pool-party/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        }
+      ]
+    },
+    {
+      "slug": "ultras",
+      "title": "Ultras",
+      "place": null,
+      "category": "eventi",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/235848865",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/ultras/01-480.webp",
+            "800": "photos/ultras/01-800.webp",
+            "1400": "photos/ultras/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/ultras/02-480.webp",
+            "800": "photos/ultras/02-800.webp",
+            "1400": "photos/ultras/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/ultras/03-480.webp",
+            "800": "photos/ultras/03-800.webp",
+            "1400": "photos/ultras/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/ultras/04-480.webp",
+            "800": "photos/ultras/04-800.webp",
+            "1400": "photos/ultras/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/ultras/05-480.webp",
+            "800": "photos/ultras/05-800.webp",
+            "1400": "photos/ultras/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/ultras/06-480.webp",
+            "800": "photos/ultras/06-800.webp",
+            "1400": "photos/ultras/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        }
+      ]
+    },
+    {
+      "slug": "meraviglioso-giovinazzo",
+      "title": "Meraviglioso Giovinazzo",
+      "place": "Giovinazzo",
+      "category": "territorio",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/255377301",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/meraviglioso-giovinazzo/01-480.webp",
+            "800": "photos/meraviglioso-giovinazzo/01-800.webp",
+            "1400": "photos/meraviglioso-giovinazzo/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/meraviglioso-giovinazzo/02-480.webp",
+            "800": "photos/meraviglioso-giovinazzo/02-800.webp",
+            "1400": "photos/meraviglioso-giovinazzo/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/meraviglioso-giovinazzo/03-480.webp",
+            "800": "photos/meraviglioso-giovinazzo/03-800.webp",
+            "1400": "photos/meraviglioso-giovinazzo/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/meraviglioso-giovinazzo/04-480.webp",
+            "800": "photos/meraviglioso-giovinazzo/04-800.webp",
+            "1400": "photos/meraviglioso-giovinazzo/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/meraviglioso-giovinazzo/05-480.webp",
+            "800": "photos/meraviglioso-giovinazzo/05-800.webp",
+            "1400": "photos/meraviglioso-giovinazzo/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/meraviglioso-giovinazzo/06-480.webp",
+            "800": "photos/meraviglioso-giovinazzo/06-800.webp",
+            "1400": "photos/meraviglioso-giovinazzo/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        }
+      ]
+    },
+    {
+      "slug": "ambiente",
+      "title": "Ambiente",
+      "place": null,
+      "category": "territorio",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/253027453",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/ambiente/01-480.webp",
+            "800": "photos/ambiente/01-800.webp",
+            "1400": "photos/ambiente/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/ambiente/02-480.webp",
+            "800": "photos/ambiente/02-800.webp",
+            "1400": "photos/ambiente/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/ambiente/03-480.webp",
+            "800": "photos/ambiente/03-800.webp",
+            "1400": "photos/ambiente/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/ambiente/04-480.webp",
+            "800": "photos/ambiente/04-800.webp",
+            "1400": "photos/ambiente/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/ambiente/05-480.webp",
+            "800": "photos/ambiente/05-800.webp",
+            "1400": "photos/ambiente/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/ambiente/06-480.webp",
+            "800": "photos/ambiente/06-800.webp",
+            "1400": "photos/ambiente/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        }
+      ]
+    },
+    {
+      "slug": "momenti",
+      "title": "Momenti",
+      "place": null,
+      "category": "territorio",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/255377965",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/momenti/01-480.webp",
+            "800": "photos/momenti/01-800.webp",
+            "1400": "photos/momenti/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/momenti/02-480.webp",
+            "800": "photos/momenti/02-800.webp",
+            "1400": "photos/momenti/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/momenti/03-480.webp",
+            "800": "photos/momenti/03-800.webp",
+            "1400": "photos/momenti/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/momenti/04-480.webp",
+            "800": "photos/momenti/04-800.webp",
+            "1400": "photos/momenti/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/momenti/05-480.webp",
+            "800": "photos/momenti/05-800.webp",
+            "1400": "photos/momenti/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/momenti/06-480.webp",
+            "800": "photos/momenti/06-800.webp",
+            "1400": "photos/momenti/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        }
+      ]
+    },
+    {
+      "slug": "18-clarissa",
+      "title": "18 Clarissa",
+      "place": null,
+      "category": "ricorrenze",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/255110039",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/18-clarissa/01-480.webp",
+            "800": "photos/18-clarissa/01-800.webp",
+            "1400": "photos/18-clarissa/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/18-clarissa/02-480.webp",
+            "800": "photos/18-clarissa/02-800.webp",
+            "1400": "photos/18-clarissa/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-clarissa/03-480.webp",
+            "800": "photos/18-clarissa/03-800.webp",
+            "1400": "photos/18-clarissa/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-clarissa/04-480.webp",
+            "800": "photos/18-clarissa/04-800.webp",
+            "1400": "photos/18-clarissa/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-clarissa/05-480.webp",
+            "800": "photos/18-clarissa/05-800.webp",
+            "1400": "photos/18-clarissa/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-clarissa/06-480.webp",
+            "800": "photos/18-clarissa/06-800.webp",
+            "1400": "photos/18-clarissa/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        }
+      ]
+    },
+    {
+      "slug": "18-claudia",
+      "title": "18 Claudia",
+      "place": null,
+      "category": "ricorrenze",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/255952545",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/18-claudia/01-480.webp",
+            "800": "photos/18-claudia/01-800.webp",
+            "1400": "photos/18-claudia/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-claudia/02-480.webp",
+            "800": "photos/18-claudia/02-800.webp",
+            "1400": "photos/18-claudia/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-claudia/03-480.webp",
+            "800": "photos/18-claudia/03-800.webp",
+            "1400": "photos/18-claudia/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-claudia/04-480.webp",
+            "800": "photos/18-claudia/04-800.webp",
+            "1400": "photos/18-claudia/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-claudia/05-480.webp",
+            "800": "photos/18-claudia/05-800.webp",
+            "1400": "photos/18-claudia/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-claudia/06-480.webp",
+            "800": "photos/18-claudia/06-800.webp",
+            "1400": "photos/18-claudia/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        }
+      ]
+    },
+    {
+      "slug": "18-miriana",
+      "title": "18 Miriana",
+      "place": null,
+      "category": "ricorrenze",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/248722871",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/18-miriana/01-480.webp",
+            "800": "photos/18-miriana/01-800.webp",
+            "1400": "photos/18-miriana/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-miriana/02-480.webp",
+            "800": "photos/18-miriana/02-800.webp",
+            "1400": "photos/18-miriana/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-miriana/03-480.webp",
+            "800": "photos/18-miriana/03-800.webp",
+            "1400": "photos/18-miriana/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-miriana/04-480.webp",
+            "800": "photos/18-miriana/04-800.webp",
+            "1400": "photos/18-miriana/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-miriana/05-480.webp",
+            "800": "photos/18-miriana/05-800.webp",
+            "1400": "photos/18-miriana/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-miriana/06-480.webp",
+            "800": "photos/18-miriana/06-800.webp",
+            "1400": "photos/18-miriana/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        }
+      ]
+    },
+    {
+      "slug": "18-sara",
+      "title": "18 Sara",
+      "place": null,
+      "category": "ricorrenze",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/250103537",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/18-sara/01-480.webp",
+            "800": "photos/18-sara/01-800.webp",
+            "1400": "photos/18-sara/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-sara/02-480.webp",
+            "800": "photos/18-sara/02-800.webp",
+            "1400": "photos/18-sara/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-sara/03-480.webp",
+            "800": "photos/18-sara/03-800.webp",
+            "1400": "photos/18-sara/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-sara/04-480.webp",
+            "800": "photos/18-sara/04-800.webp",
+            "1400": "photos/18-sara/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-sara/05-480.webp",
+            "800": "photos/18-sara/05-800.webp",
+            "1400": "photos/18-sara/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-sara/06-480.webp",
+            "800": "photos/18-sara/06-800.webp",
+            "1400": "photos/18-sara/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        }
+      ]
+    },
+    {
+      "slug": "18-giusy",
+      "title": "18 Giusy",
+      "place": null,
+      "category": "ricorrenze",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/250659683",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/18-giusy/01-480.webp",
+            "800": "photos/18-giusy/01-800.webp",
+            "1400": "photos/18-giusy/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-giusy/02-480.webp",
+            "800": "photos/18-giusy/02-800.webp",
+            "1400": "photos/18-giusy/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-giusy/03-480.webp",
+            "800": "photos/18-giusy/03-800.webp",
+            "1400": "photos/18-giusy/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-giusy/04-480.webp",
+            "800": "photos/18-giusy/04-800.webp",
+            "1400": "photos/18-giusy/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-giusy/05-480.webp",
+            "800": "photos/18-giusy/05-800.webp",
+            "1400": "photos/18-giusy/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-giusy/06-480.webp",
+            "800": "photos/18-giusy/06-800.webp",
+            "1400": "photos/18-giusy/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        }
+      ]
+    },
+    {
+      "slug": "18-isabella",
+      "title": "18 Isabella",
+      "place": null,
+      "category": "ricorrenze",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/235802569",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/18-isabella/01-480.webp",
+            "800": "photos/18-isabella/01-800.webp",
+            "1400": "photos/18-isabella/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-isabella/02-480.webp",
+            "800": "photos/18-isabella/02-800.webp",
+            "1400": "photos/18-isabella/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-isabella/03-480.webp",
+            "800": "photos/18-isabella/03-800.webp",
+            "1400": "photos/18-isabella/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-isabella/04-480.webp",
+            "800": "photos/18-isabella/04-800.webp",
+            "1400": "photos/18-isabella/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-isabella/05-480.webp",
+            "800": "photos/18-isabella/05-800.webp",
+            "1400": "photos/18-isabella/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/18-isabella/06-480.webp",
+            "800": "photos/18-isabella/06-800.webp",
+            "1400": "photos/18-isabella/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        }
+      ]
+    },
+    {
+      "slug": "18-samuele",
+      "title": "18 Samuele",
+      "place": null,
+      "category": "ricorrenze",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/235780875",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/18-samuele/01-480.webp",
+            "800": "photos/18-samuele/01-800.webp",
+            "1400": "photos/18-samuele/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/18-samuele/02-480.webp",
+            "800": "photos/18-samuele/02-800.webp",
+            "1400": "photos/18-samuele/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/18-samuele/03-480.webp",
+            "800": "photos/18-samuele/03-800.webp",
+            "1400": "photos/18-samuele/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/18-samuele/04-480.webp",
+            "800": "photos/18-samuele/04-800.webp",
+            "1400": "photos/18-samuele/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/18-samuele/05-480.webp",
+            "800": "photos/18-samuele/05-800.webp",
+            "1400": "photos/18-samuele/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        },
+        {
+          "srcset": {
+            "480": "photos/18-samuele/06-480.webp",
+            "800": "photos/18-samuele/06-800.webp",
+            "1400": "photos/18-samuele/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 1750
+        }
+      ]
+    },
+    {
+      "slug": "battesimo",
+      "title": "Battesimo",
+      "place": null,
+      "category": "ricorrenze",
+      "hero": false,
+      "behance": "https://www.behance.net/gallery/241796267",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/battesimo/01-480.webp",
+            "800": "photos/battesimo/01-800.webp",
+            "1400": "photos/battesimo/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/battesimo/02-480.webp",
+            "800": "photos/battesimo/02-800.webp",
+            "1400": "photos/battesimo/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/battesimo/03-480.webp",
+            "800": "photos/battesimo/03-800.webp",
+            "1400": "photos/battesimo/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/battesimo/04-480.webp",
+            "800": "photos/battesimo/04-800.webp",
+            "1400": "photos/battesimo/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/battesimo/05-480.webp",
+            "800": "photos/battesimo/05-800.webp",
+            "1400": "photos/battesimo/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/battesimo/06-480.webp",
+            "800": "photos/battesimo/06-800.webp",
+            "1400": "photos/battesimo/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        }
+      ]
+    },
+    {
+      "slug": "comunione-paolo",
+      "title": "Comunione Paolo",
+      "place": null,
+      "category": "ricorrenze",
+      "hero": false,
+      "behance": "https://www.behance.net/gallery/250422833",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/comunione-paolo/01-480.webp",
+            "800": "photos/comunione-paolo/01-800.webp",
+            "1400": "photos/comunione-paolo/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/comunione-paolo/02-480.webp",
+            "800": "photos/comunione-paolo/02-800.webp",
+            "1400": "photos/comunione-paolo/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/comunione-paolo/03-480.webp",
+            "800": "photos/comunione-paolo/03-800.webp",
+            "1400": "photos/comunione-paolo/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/comunione-paolo/04-480.webp",
+            "800": "photos/comunione-paolo/04-800.webp",
+            "1400": "photos/comunione-paolo/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/comunione-paolo/05-480.webp",
+            "800": "photos/comunione-paolo/05-800.webp",
+            "1400": "photos/comunione-paolo/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/comunione-paolo/06-480.webp",
+            "800": "photos/comunione-paolo/06-800.webp",
+            "1400": "photos/comunione-paolo/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        }
+      ]
+    },
+    {
+      "slug": "pre-parto-1",
+      "title": "Pre-parto",
+      "place": null,
+      "category": "maternita",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/235808373",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/pre-parto-1/01-480.webp",
+            "800": "photos/pre-parto-1/01-800.webp",
+            "1400": "photos/pre-parto-1/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-1/02-480.webp",
+            "800": "photos/pre-parto-1/02-800.webp",
+            "1400": "photos/pre-parto-1/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-1/03-480.webp",
+            "800": "photos/pre-parto-1/03-800.webp",
+            "1400": "photos/pre-parto-1/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-1/04-480.webp",
+            "800": "photos/pre-parto-1/04-800.webp",
+            "1400": "photos/pre-parto-1/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-1/05-480.webp",
+            "800": "photos/pre-parto-1/05-800.webp",
+            "1400": "photos/pre-parto-1/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-1/06-480.webp",
+            "800": "photos/pre-parto-1/06-800.webp",
+            "1400": "photos/pre-parto-1/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        }
+      ]
+    },
+    {
+      "slug": "pre-parto-2",
+      "title": "Pre-parto",
+      "place": null,
+      "category": "maternita",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/250876019",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/pre-parto-2/01-480.webp",
+            "800": "photos/pre-parto-2/01-800.webp",
+            "1400": "photos/pre-parto-2/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-2/02-480.webp",
+            "800": "photos/pre-parto-2/02-800.webp",
+            "1400": "photos/pre-parto-2/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-2/03-480.webp",
+            "800": "photos/pre-parto-2/03-800.webp",
+            "1400": "photos/pre-parto-2/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-2/04-480.webp",
+            "800": "photos/pre-parto-2/04-800.webp",
+            "1400": "photos/pre-parto-2/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-2/05-480.webp",
+            "800": "photos/pre-parto-2/05-800.webp",
+            "1400": "photos/pre-parto-2/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-2/06-480.webp",
+            "800": "photos/pre-parto-2/06-800.webp",
+            "1400": "photos/pre-parto-2/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        }
+      ]
+    },
+    {
+      "slug": "pre-parto-3",
+      "title": "Pre-parto",
+      "place": null,
+      "category": "maternita",
+      "hero": true,
+      "behance": "https://www.behance.net/gallery/252965095",
+      "photos": [
+        {
+          "srcset": {
+            "480": "photos/pre-parto-3/01-480.webp",
+            "800": "photos/pre-parto-3/01-800.webp",
+            "1400": "photos/pre-parto-3/01-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-3/02-480.webp",
+            "800": "photos/pre-parto-3/02-800.webp",
+            "1400": "photos/pre-parto-3/02-1400.webp"
+          },
+          "w": 1400,
+          "h": 2100
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-3/03-480.webp",
+            "800": "photos/pre-parto-3/03-800.webp",
+            "1400": "photos/pre-parto-3/03-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-3/04-480.webp",
+            "800": "photos/pre-parto-3/04-800.webp",
+            "1400": "photos/pre-parto-3/04-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-3/05-480.webp",
+            "800": "photos/pre-parto-3/05-800.webp",
+            "1400": "photos/pre-parto-3/05-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        },
+        {
+          "srcset": {
+            "480": "photos/pre-parto-3/06-480.webp",
+            "800": "photos/pre-parto-3/06-800.webp",
+            "1400": "photos/pre-parto-3/06-1400.webp"
+          },
+          "w": 1400,
+          "h": 933
+        }
+      ]
+    }
+  ]
+}

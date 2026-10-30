@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="it" data-theme="notte">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio Alessia Germinario · Bozze</title>
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Manrope:wght@400..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/styles/base.css" />
+    <style>
+      .drafts {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 72px var(--gutter);
+      }
+      .drafts h1 {
+        margin: 0 0 12px;
+        font: 380 clamp(2.4rem, 6vw, 4.2rem) / 1 var(--font-display);
+        letter-spacing: -0.03em;
+      }
+      .drafts > p {
+        max-width: 620px;
+        color: var(--muted);
+      }
+      .draft-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin-top: 40px;
+      }
+      @media (max-width: 820px) {
+        .draft-list {
+          grid-template-columns: 1fr;
+        }
+      }
+      .draft-card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        text-decoration: none;
+        transition: border-color 0.2s;
+      }
+      .draft-card:hover {
+        border-color: var(--ink);
+      }
+      .draft-card b {
+        font: 400 1.8rem/1 var(--font-display);
+      }
+      .draft-card span {
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      .swatch {
+        display: flex;
+        gap: 6px;
+      }
+      .swatch i {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        border: 1px solid var(--line);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="drafts">
+      <p class="section-kicker">Portfolio · Alessia Germinario</p>
+      <h1>Tre bozze della home</h1>
+      <p>Stesse sezioni sotto (servizi per privati e aziende, lavori, chi sono, contatti), tre idee diverse per la scena in Three.js della hero. Le foto sono quelle dei due profili Behance.</p>
+      <div class="draft-list">
+        <a class="draft-card" href="./bozza-spirale.html">
+          <b>A · Spirale</b>
+          <span>Scura, cinematografica. Le foto ruotano su una galassia inclinata con profondità di campo e comete di luce. La più vicina a ArtCraft.</span>
+          <span class="swatch"><i style="background:#0e0c0b"></i><i style="background:#f3ede6"></i><i style="background:#e0533d"></i></span>
+        </a>
+        <a class="draft-card" href="./bozza-corridoio.html">
+          <b>B · Corridoio</b>
+          <span>Chiara, editoriale. Scrollando attraversi le foto sospese in profondità: una alla volta è a fuoco, le altre sfumano nella carta.</span>
+          <span class="swatch"><i style="background:#f2ece3"></i><i style="background:#1d1915"></i><i style="background:#b8432f"></i></span>
+        </a>
+        <a class="draft-card" href="./bozza-muro.html">
+          <b>C · Muro</b>
+          <span>Da galleria. Una parete infinita e curva di foto che scorre e si trascina; dietro al titolo le foto si sfocano.</span>
+          <span class="swatch"><i style="background:#efeeea"></i><i style="background:#121212"></i><i style="background:#c23a2b"></i></span>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
