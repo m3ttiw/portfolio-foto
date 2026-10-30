@@ -101,7 +101,18 @@ function aboutSection() {
 function contactSection() {
   const [behanceA, behanceB] = photographer.behance;
   return `
-  <section class="section" id="contatti" aria-labelledby="contatti-title">
+  <section class="section section-contact" id="contatti" aria-labelledby="contatti-title">
+    <div class="contact-bg" aria-hidden="true">
+      <div class="contact-bg-stage">
+        ${[1, 2, 3]
+          .map(
+            (n) => `<img src="${asset(`photos/contatti/reflex-${n}-1600.webp`)}"
+              srcset="${asset(`photos/contatti/reflex-${n}-900.webp`)} 900w, ${asset(`photos/contatti/reflex-${n}-1600.webp`)} 1600w"
+              sizes="100vw" alt="" loading="lazy" decoding="async" />`,
+          )
+          .join('')}
+      </div>
+    </div>
     <div class="contact" data-reveal-scroll>
       <div>
         <p class="section-kicker">Contatti</p>
@@ -212,6 +223,10 @@ function contactSection() {
         <p class="form-note" role="status" hidden>Bozza: l'invio del form non è ancora collegato.</p>
       </form>
     </div>
+    <p class="contact-credit">Sfondo: foto di
+      <a href="https://unsplash.com/@sylvester_s" target="_blank" rel="noopener">Sylvester Sabo</a>,
+      <a href="https://unsplash.com/@smartphotocourses" target="_blank" rel="noopener">Smart</a> e
+      <a href="https://unsplash.com/@alexkall" target="_blank" rel="noopener">Alex Kalligas</a> su Unsplash</p>
   </section>
   <footer class="site-footer">
     <span>© 2026 ${photographer.name}<button class="egg" type="button" aria-label="Una sorpresa">·</button>${photographer.place}</span>

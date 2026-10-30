@@ -13,7 +13,7 @@ Stesse sezioni (servizi per privati e aziende, lavori, chi sono, contatti), tre 
 | `bozza-spirale.html` | **A · Spirale**: le foto ruotano su una galassia inclinata, con profondità di campo e comete di luce lungo i bracci. |
 | `bozza-corridoio.html` | **B · Corridoio**: scrollando la camera attraversa le foto sospese in profondità. |
 | `bozza-muro.html` | **C · Muro**: parete infinita e curva di foto che scorre da sola e si trascina. |
-| `bozza-alessia.html` | Anteprima per Alessia: header, spirale, servizi e lavori; Chi sono e Contatti con fumetto "Coming soon". "Richiedi un preventivo" e il puntino dell'occhiello aprono l'easter egg. |
+| `bozza-alessia.html` | Sito per Alessia: spirale e tutte le sezioni, senza selettore delle bozze. "Richiedi un preventivo" e il puntino dell'occhiello aprono l'easter egg. |
 
 ## Comandi
 
@@ -52,3 +52,7 @@ npm run photos   # riscarica le foto da Behance (content/projects.json)
 ## Pubblicazione
 
 GitHub Pages con GitHub Actions (`.github/workflows/deploy.yml`) a ogni push su `main`.
+
+## Crediti
+
+Sfondo della sezione contatti: foto di [Sylvester Sabo](https://unsplash.com/@sylvester_s), [Smart](https://unsplash.com/@smartphotocourses) e [Alex Kalligas](https://unsplash.com/@alexkall) su Unsplash ([licenza Unsplash](https://unsplash.com/license)), in `public/photos/contatti/`.
