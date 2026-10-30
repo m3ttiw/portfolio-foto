@@ -13,6 +13,7 @@ Stesse sezioni (servizi per privati e aziende, lavori, chi sono, contatti), tre 
 | `bozza-spirale.html` | **A · Spirale**: le foto ruotano su una galassia inclinata, con profondità di campo e comete di luce lungo i bracci. |
 | `bozza-corridoio.html` | **B · Corridoio**: scrollando la camera attraversa le foto sospese in profondità. |
 | `bozza-muro.html` | **C · Muro**: parete infinita e curva di foto che scorre da sola e si trascina. |
+| `bozza-alessia.html` | Anteprima per Alessia: solo header e spirale, link e foto con fumetto "Coming soon". Easter egg nel puntino dell'occhiello. |
 
 ## Comandi
 

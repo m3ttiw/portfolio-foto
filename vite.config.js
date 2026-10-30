@@ -18,6 +18,7 @@ export default defineConfig({
         spirale: page('bozza-spirale.html'),
         corridoio: page('bozza-corridoio.html'),
         muro: page('bozza-muro.html'),
+        alessia: page('bozza-alessia.html'),
       },
     },
   },
