@@ -106,7 +106,7 @@ function contactSection() {
       <div>
         <p class="section-kicker">Contatti</p>
         <h2 id="contatti-title">Raccontami cosa vuoi <em>fotografare</em></h2>
-        <p class="contact-lead">Scrivimi la data, la città e il tipo di servizio: ti rispondo con una proposta e un preventivo.</p>
+        <p class="contact-lead">Dimmi che servizio ti serve, quando e dove: ti rispondo con una proposta e un preventivo, di solito entro un giorno.</p>
         <div class="contact-links">
           <a class="btn btn-primary" href="#contatti" data-todo="numero WhatsApp">WhatsApp</a>
           <a class="btn" href="#contatti" data-todo="email">Email</a>
@@ -115,18 +115,98 @@ function contactSection() {
         </div>
       </div>
       <form class="form" novalidate>
-        <label>Nome<input name="nome" autocomplete="name" required /></label>
-        <label>Telefono o email<input name="contatto" autocomplete="email" required /></label>
-        <label>Servizio
-          <select name="servizio">
-            <option value="privati">Privati: ricorrenze e maternità</option>
-            <option value="aziende">Aziende: food, locali, eventi</option>
-          </select>
-        </label>
-        <label>Data e città<input name="quando" placeholder="es. 14 marzo, Trani" /></label>
-        <label class="full">Messaggio<textarea name="messaggio"></textarea></label>
-        <label class="full consent"><input type="checkbox" required /> Acconsento al trattamento dei dati per essere ricontattata/o.</label>
-        <button class="btn btn-primary full" type="submit" style="justify-self:start">Richiedi un preventivo</button>
+        <fieldset>
+          <legend>I tuoi dati</legend>
+          <label class="full">Nome e cognome *<input name="nome" autocomplete="name" required /></label>
+          <label>Telefono *<input name="telefono" type="tel" autocomplete="tel" inputmode="tel" required /></label>
+          <label>Email<input name="email" type="email" autocomplete="email" /></label>
+          <div class="full choice" role="radiogroup" aria-label="Come preferisci essere ricontattata/o">
+            <span>Preferisci essere ricontattata/o su</span>
+            <label><input type="radio" name="ricontatto" value="whatsapp" checked /> WhatsApp</label>
+            <label><input type="radio" name="ricontatto" value="telefono" /> Telefono</label>
+            <label><input type="radio" name="ricontatto" value="email" /> Email</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Il servizio</legend>
+          <label class="full">Tipo di servizio *
+            <select name="servizio" required>
+              <option value="">Scegli…</option>
+              <optgroup label="Privati" data-area="privati">
+                <option>Diciottesimo</option>
+                <option>Pre-parto / maternità</option>
+                <option>Battesimo</option>
+                <option>Comunione</option>
+                <option>Altra ricorrenza o festa privata</option>
+              </optgroup>
+              <optgroup label="Aziende" data-area="aziende">
+                <option>Food e menu</option>
+                <option>Locale e ambienti</option>
+                <option>Cantina o prodotto</option>
+                <option>Evento aziendale o serata</option>
+                <option>Altro per aziende</option>
+              </optgroup>
+            </select>
+          </label>
+          <label>Persone o ospiti, circa<input name="persone" type="number" min="1" inputmode="numeric" placeholder="es. 80" /></label>
+          <label>Budget indicativo
+            <select name="budget">
+              <option value="">Preferisco parlarne</option>
+              <option>Fino a 300 €</option>
+              <option>300 – 600 €</option>
+              <option>600 – 1.000 €</option>
+              <option>Oltre 1.000 €</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Quando</legend>
+          <label>Data *<input name="data" type="date" required /></label>
+          <label>Orario di inizio<input name="ora" type="time" /></label>
+          <label class="full check"><input type="checkbox" name="data_da_definire" /> La data non è ancora decisa</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Dove</legend>
+          <label class="full">Indirizzo o nome del luogo *<input name="indirizzo" autocomplete="street-address" placeholder="es. Villa Senses, via … 12" required /></label>
+          <label>Città *<input name="citta" autocomplete="address-level2" list="citta-puglia" required /></label>
+          <label>Provincia
+            <select name="provincia" autocomplete="address-level1">
+              <option>Bari</option>
+              <option>Barletta-Andria-Trani</option>
+              <option>Brindisi</option>
+              <option>Foggia</option>
+              <option>Lecce</option>
+              <option>Taranto</option>
+              <option>Fuori Puglia</option>
+            </select>
+          </label>
+          <datalist id="citta-puglia">
+            <option>Molfetta</option><option>Bari</option><option>Giovinazzo</option><option>Bisceglie</option>
+            <option>Trani</option><option>Barletta</option><option>Andria</option><option>Terlizzi</option>
+            <option>Ruvo di Puglia</option><option>Corato</option><option>Altamura</option><option>Monopoli</option>
+          </datalist>
+        </fieldset>
+
+        <fieldset>
+          <legend>Altro</legend>
+          <label class="full">Raccontami cosa hai in mente<textarea name="messaggio" placeholder="Atmosfera, momenti da non perdere, se ti servono stampe o un album…"></textarea></label>
+          <label class="full">Come mi hai conosciuta
+            <select name="fonte">
+              <option value="">—</option>
+              <option>Instagram</option>
+              <option>Behance</option>
+              <option>Passaparola</option>
+              <option>Google</option>
+              <option>Ho visto un tuo servizio a un evento</option>
+            </select>
+          </label>
+          <label class="full check consent"><input type="checkbox" name="privacy" required /> Ho letto l'informativa privacy e acconsento al trattamento dei dati per essere ricontattata/o. *</label>
+        </fieldset>
+
+        <button class="btn btn-primary" type="submit">Richiedi un preventivo</button>
         <p class="form-note" role="status" hidden>Bozza: l'invio del form non è ancora collegato.</p>
       </form>
     </div>
@@ -151,16 +231,28 @@ function wireFilters(root) {
   root.querySelectorAll('[data-filter-link]').forEach((a) =>
     a.addEventListener('click', () => apply(a.dataset.filterLink)),
   );
+  // "Chiedi un preventivo" da una delle due strade: il servizio parte dal gruppo giusto.
   root.querySelectorAll('[data-service]').forEach((a) =>
-    a.addEventListener('click', () => (root.querySelector('select[name="servizio"]').value = a.dataset.service)),
+    a.addEventListener('click', () => {
+      root.querySelector(`optgroup[data-area="${a.dataset.service}"] option`).selected = true;
+    }),
   );
   return apply;
 }
 
 function wireForm(root) {
   const form = root.querySelector('.form');
+  const date = form.elements.data;
+  date.min = new Date().toISOString().slice(0, 10);
+  // Data da definire: il campo data non è più obbligatorio.
+  form.elements.data_da_definire.addEventListener('change', (e) => {
+    date.required = !e.target.checked;
+    date.disabled = e.target.checked;
+  });
   form.addEventListener('submit', (e) => {
     e.preventDefault();
+    if (!form.reportValidity()) return;
+    form.querySelector('.form-note').textContent = "Bozza: l'invio del form non è ancora collegato.";
     form.querySelector('.form-note').hidden = false;
   });
   root.querySelectorAll('[data-todo]').forEach((a) =>
