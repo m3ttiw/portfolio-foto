@@ -11,34 +11,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Manrope:wght@400..700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/src/styles/base.css" />
   </head>
-  <body class="teaser">
+  <body class="teaser" id="top">
     <header class="site-header">
-      <a class="brand" href="#" data-soon>Alessia Germinario <em>foto</em></a>
+      <a class="brand" href="#top">Alessia Germinario <em>foto</em></a>
       <nav class="site-nav" aria-label="Principale">
-        <a href="#" data-soon>Servizi</a>
-        <a href="#" data-soon>Lavori</a>
+        <a href="#servizi">Servizi</a>
+        <a href="#lavori">Lavori</a>
         <a href="#" data-soon>Chi sono</a>
         <a href="#" data-soon>Contatti</a>
       </nav>
       <button class="btn btn-primary btn-small" type="button" data-egg>Richiedi un preventivo</button>
     </header>
 
-    <main>
-      <section class="hero" id="hero" data-hero="spirale">
-        <div class="hero-stage" aria-hidden="true"></div>
-        <div class="hero-copy">
-          <p class="eyebrow" data-reveal>Fotografa<button class="egg" type="button" aria-label="Una sorpresa">·</button>Molfetta</p>
-          <h1 class="hero-title" data-split>Alessia Germinario</h1>
-          <p class="hero-lede" data-reveal>Persone, feste e sapori della Puglia. Ricorrenze, food ed eventi per i locali o per te.</p>
-          <div class="hero-actions" data-reveal>
-            <button class="btn btn-primary" type="button" data-egg>Richiedi un preventivo</button>
-            <a class="btn" href="#" data-soon>Guarda i lavori</a>
-          </div>
+    <section class="hero" id="hero" data-hero="spirale">
+      <div class="hero-stage" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow" data-reveal>Fotografa<button class="egg" type="button" aria-label="Una sorpresa">·</button>Molfetta</p>
+        <h1 class="hero-title" data-split>Alessia Germinario</h1>
+        <p class="hero-lede" data-reveal>Persone, feste e sapori della Puglia. Ricorrenze, food ed eventi per i locali o per te.</p>
+        <div class="hero-actions" data-reveal>
+          <button class="btn btn-primary" type="button" data-egg>Richiedi un preventivo</button>
+          <a class="btn" href="#lavori">Guarda i lavori</a>
         </div>
-        <p class="hero-hint">Passa sopra una foto per vedere il progetto</p>
-        <button class="motion-toggle" type="button"></button>
-      </section>
-    </main>
+      </div>
+      <p class="hero-hint">Passa sopra una foto · clicca per aprire il progetto</p>
+      <button class="motion-toggle" type="button"></button>
+    </section>
+
+    <main id="content"></main>
     <script type="module" src="/src/drafts/alessia.js"></script>
   </body>
 </html>

@@ -237,7 +237,8 @@ function wireFilters(root) {
   // "Chiedi un preventivo" da una delle due strade: il servizio parte dal gruppo giusto.
   root.querySelectorAll('[data-service]').forEach((a) =>
     a.addEventListener('click', () => {
-      root.querySelector(`optgroup[data-area="${a.dataset.service}"] option`).selected = true;
+      const option = root.querySelector(`optgroup[data-area="${a.dataset.service}"] option`);
+      if (option) option.selected = true;
     }),
   );
   return apply;
@@ -245,6 +246,7 @@ function wireFilters(root) {
 
 function wireForm(root) {
   const form = root.querySelector('.form');
+  if (!form) return;
   const date = form.elements.data;
   date.min = new Date().toISOString().slice(0, 10);
   // Data da definire: il campo data non è più obbligatorio.
@@ -283,8 +285,11 @@ function revealOnScroll(root) {
 
 let applyFilter = () => {};
 
-export function renderSections(root) {
-  root.innerHTML = pathsSection() + worksSection() + aboutSection() + contactSection();
+const SECTIONS = { servizi: pathsSection, lavori: worksSection, 'chi-sono': aboutSection, contatti: contactSection };
+
+// parts: le sezioni da mostrare, nell'ordine (la pagina per Alessia ne usa due).
+export function renderSections(root, parts = Object.keys(SECTIONS)) {
+  root.innerHTML = parts.map((id) => SECTIONS[id]()).join('');
   applyFilter = wireFilters(root);
   wireForm(root);
   revealOnScroll(root);

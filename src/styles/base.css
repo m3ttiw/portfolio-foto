@@ -956,11 +956,11 @@ a {
 }
 
 /* ---------- Pagina per Alessia: solo hero, link "coming soon" ---------- */
-.teaser {
-  overflow: hidden;
-}
 .teaser .hero-hint {
   bottom: 24px;
+}
+.teaser main {
+  padding-bottom: clamp(72px, 10vw, 140px);
 }
 [data-soon] {
   position: relative;
