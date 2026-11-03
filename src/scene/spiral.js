@@ -120,8 +120,14 @@ export function createSpiral({ scene, camera, renderer, onFrame }, hero, { onPho
 
   hero.addEventListener('click', (event) => {
     const onButtonOrLink = event.target.closest('a, button, input, select, textarea, label');
-    if (hovered && !onButtonOrLink) onPhotoClick(hovered.photo.project);
+    if (!hovered || onButtonOrLink) return;
+    label.hide();
+    onPhotoClick(hovered.photo.project);
   });
+
+  // Scorrendo, la spirale può uscire dallo schermo e smettere di aggiornarsi: l'etichetta va nascosta.
+  // Se il puntatore è ancora su una foto, il fotogramma dopo la rimette.
+  window.addEventListener('scroll', () => label.hide(), { passive: true });
 }
 
 // Punto del braccio `arm` a una frazione `t` (da 0 a 1) della sua lunghezza.
@@ -274,11 +280,13 @@ function followPointer(element) {
     clientX: 0,
     clientY: 0,
     inside: false,
+    hasMoved: false,
     smooth: new THREE.Vector2(),
   };
 
   function update(event) {
     const rect = element.getBoundingClientRect();
+    pointer.hasMoved = true;
     pointer.clientX = event.clientX;
     pointer.clientY = event.clientY;
     pointer.inside =
@@ -292,6 +300,18 @@ function followPointer(element) {
 
   window.addEventListener('pointermove', update, { passive: true });
   window.addEventListener('pointerdown', update, { passive: true });
+
+  // Scorrendo, il mouse resta fermo ma la hero si sposta sotto di lui: si ricalcola la posizione.
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (!pointer.hasMoved) return;
+      const target = document.elementFromPoint(pointer.clientX, pointer.clientY) ?? document.body;
+      update({ clientX: pointer.clientX, clientY: pointer.clientY, target });
+    },
+    { passive: true },
+  );
+
   document.addEventListener('pointerleave', () => {
     pointer.inside = false;
     pointer.ndc.set(9, 9);
