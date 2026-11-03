@@ -2,23 +2,18 @@ import { defineConfig } from 'vite';
 import { resolve } from 'node:path';
 import { instagramImport } from './scripts/instagram-import.js';
 
-const page = (name) => resolve(import.meta.dirname, name);
-
 export default defineConfig({
-  // Percorsi relativi: il sito funziona anche da una sottocartella (GitHub Pages).
+  // Percorsi relativi: il sito funziona anche dentro una sottocartella, come su GitHub Pages.
   base: './',
   server: { port: 5180 },
   plugins: [instagramImport(import.meta.dirname)],
   build: {
-    // three.js da solo è circa 600 kB: per una bozza va bene così.
+    // three.js da solo pesa circa 600 kB.
     chunkSizeWarningLimit: 800,
     rollupOptions: {
       input: {
-        index: page('index.html'),
-        spirale: page('bozza-spirale.html'),
-        corridoio: page('bozza-corridoio.html'),
-        muro: page('bozza-muro.html'),
-        alessia: page('bozza-alessia.html'),
+        index: resolve(import.meta.dirname, 'index.html'),
+        alessia: resolve(import.meta.dirname, 'bozza-alessia.html'),
       },
     },
   },
